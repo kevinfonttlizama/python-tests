@@ -15,13 +15,16 @@ class Car():
     wheels=4
     moving=False
 
+    def myMethod(self):   # <---- self hace referencia al mismo objeto podemos asimilarlo con el this de otros lenguajes de programacion
+
+
 #----- Funcion vs metodo --------------------------
 
 #diferencia entre funcion y metodo 
 #Una Funcion no es exclusiva de una clase
 #un Metodo es una funcion especial que pertenece a una clase 
 
-
+myCar=Car()  #<---- instanciar una clase, ejemplarizar clase, crear instancia, crear objeto etc....... es lomismo
 
 
 
