@@ -41,6 +41,14 @@ myCar.carOn() #<--- encendiendo el auto, si omitimos esta parte no encenderemos 
 print(myCar.carState()) # <---- estado de el auto para ver si esta encendido o apagado
 
 
+#--- creando otra instancia ejemplo ------------
+print("--------------------- car 2 ---------------")
+
+myCar2 = Car()
+print("car height is :", myCar2.chasisHeight)
+print("this car has :", myCar2.wheels, "wheels")
+print(myCar2.carState())
+
 
 
 
