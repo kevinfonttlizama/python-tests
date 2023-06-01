@@ -1,6 +1,13 @@
 #bienvenido a mi guia personalizada de python en esta guia estan mis estudios personales de este lenguaje de programacion si te sirve de ayuda puedes ocuparlo para aprender y estudiar este mismo, gracias por leerlo y que te diviertas aprendiendo!
 
+# esta guia no es para principiantes desde 0, por lo que hay algunas cosas que no entenderas si no conoces algun lenguaje de programacion, tengo contemplado subir una guia desde 0 pero este no es el caso ya que es una guia de estudios y investigaciones mia para autoaprendizaje continuo intentare detallar cada cosa para que sea entendible tanto para mi como para alguien que vaya a leer esto en algun momento.
 
+
+#------------------- tipos de datos -----------------
+
+#str = string ej: ----> cadena = "hello world" (las comillas van incluidas en el string o cadena de texto "hello world")
+#int = numero ej: ----> numero = 1,2,3,4,5,2134,45,4344534 etc...
+#float numeros decimales ----> numeroDecimal = 2.4 , 2.2 , 0.1 , 100.2 , 0.05 etc... 
 
 # ------------------ Funciones ----------------------
 
