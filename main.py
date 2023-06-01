@@ -1,3 +1,6 @@
+#bienvenido a mi guia personalizada de python en esta guia estan mis estudios personales de este lenguaje de programacion si te sirve de ayuda puedes ocuparlo para aprender y estudiar este mismo, gracias por leerlo y que te diviertas aprendiendo!
+
+
 
 # ------------------ Funciones ----------------------
 
