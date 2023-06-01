@@ -200,7 +200,7 @@ diccionarioPaises["Argentina"]="Buenos Aires"
 
 #ahora si imprimimos por consola Argentina tendra el valor Correcto de la Capital que en este caso es Buenos aires y NO El Cairo
 
-#para borrar un elemento del diccionario de paises usamos el metodo del y especificamos el valor
+#para borrar un elemento del diccionario de paises usamos el metodo ---> del <--- y especificamos el valor
 
 del diccionarioPaises["Pizza"]
 
@@ -242,3 +242,4 @@ miTupla=("hola",123,"queso")
 
 # print(len(diccionarioDiverso)) <-- imprime cuantos objetos tenemos dentro del diccionario
 
+#continuacion de la guia en el archivo tests.py
