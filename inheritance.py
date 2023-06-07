@@ -1,7 +1,7 @@
 #herencias en python 
 
 
-class Vehiculos():
+class Vehiculos(): # definiendo la clase <----
 
     def __init__(self, marca, modelo): #<--- constructor
         
@@ -12,16 +12,49 @@ class Vehiculos():
         self.frena=False
 
 
-        def arrancar(self):
+    def arrancar(self):
 
-            self.enmarcha=True  
+            self.enMarcha=True  
 
-        def acelerar(self):
+    def acelerar(self):
             self.acelera=True
 
-        def frenar(self):
+    def frenar(self):
             self.frena=True
 
+    def estado(self):
+        print("Marca:", self.marca, "\nModelo: ", self.modelo,"\nEn Marcha: ", self.enMarcha, "\nAcelerando: ",self.acelera,"\nFrenando: ", self.frena)  
 
-        def estado(self):
-            print("Marca;", self.marca, "\nModelo:", self.modelo)
+
+
+
+class Moto(Vehiculos):
+    hCaballito=""
+    def caballito(self):
+          self.hCaballito="Voy haciendo el caballito"
+          
+          
+    def estado(self):
+        print("Marca:", self.marca, "\nModelo: ", self.modelo,"\nEn Marcha: ", self.enMarcha, "\nAcelerando: ",self.acelera,"\nFrenando: ", self.frena, "\n",self.hCaballito)
+
+
+
+class VElectricos(Vehiculos):
+        def __init__(self, marca, modelo):
+            
+                super().__init__(marca ,modelo)
+
+                self.autonomia=100
+
+        def cargarEnergia(self):
+            
+                self.cargando=True
+
+
+miMoto=Moto("Honda","CBR")
+
+miMoto.caballito()
+
+miMoto.estado()
+
+    
